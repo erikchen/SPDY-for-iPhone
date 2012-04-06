@@ -21,7 +21,7 @@
 
 #import "SpdySession.h"
 
-#import <Foundation/Foundation.h>
+//#import <Foundation/Foundation.h>
 #import <CoreFoundation/CoreFoundation.h>
 
 #include <fcntl.h>

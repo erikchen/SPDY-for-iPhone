@@ -61,7 +61,7 @@ SPDY: build/lib/libSPDY.a
 
 clean:
 	-rm -r build
-	cd spdylay && make clean
+	cd spdylay && make
 
 update-spdylay:
 	cd spdylay && git pull
@@ -69,7 +69,7 @@ update-spdylay:
 
 
 check: SPDY
-	cd SPDY && make check
+	-cd spdylay && make clean
 
 
 .PHONY: all check spdylay zlib openssl SPDY clean update-spdylay

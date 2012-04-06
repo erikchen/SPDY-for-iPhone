@@ -18,7 +18,7 @@
 // limitations under the License.
 
 
-#import <Foundation/Foundation.h>
+//#import <Foundation/Foundation.h>
 #import "SPDY.h"
 
 @class RequestCallback;

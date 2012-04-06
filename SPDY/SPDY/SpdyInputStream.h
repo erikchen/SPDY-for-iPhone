@@ -8,7 +8,7 @@
 //  Copyright (c) 2012 Twist Inc. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+//#import <Foundation/Foundation.h>
 #import "SPDY.h"
 
 @interface SpdyInputStream : NSInputStream<NSStreamDelegate>

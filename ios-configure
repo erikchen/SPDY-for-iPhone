@@ -22,6 +22,7 @@ default_macosx_version=10.6
 
 DEVELOPER=${DEVELOPER:-`xcode-select -print-path`}
 GCC_VERSION="${GCC_VERSION:-$default_gcc_version}"
+DEVELOPER=${DEVELOPER:-`xcode-select -print-path`}
 export IOS_VERSION="${IOS_VERSION:-$default_ios_version}"
 export MIN_IOS_VERSION="${MIN_IOS_VERSION:-$default_min_ios_version}"
 export MACOSX_VERSION="${MACOSX_VERSION:-$default_macosx_version}"
